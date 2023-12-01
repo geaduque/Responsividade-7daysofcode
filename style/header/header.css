@@ -16,44 +16,4 @@
     display: flex;
     margin-left: 1em;
   }
-
-  .cards {
-    display: flex;
-    flex-flow: column wrap;
-    flex: 1 1 auto;
-    font-family: var(--montserrat);
-  }
-
-  .card {
-    width: 360px;
-    height: 144px;
-    display: flex;
-    flex-flow: row wrap;
-    font-family: var(--montserrat);
-    padding: 1em;
-  }
-
-  .card__img {
-    border-radius: 10em;
-    width: 57px;
-    height: 57px;
-  }
-
-  .card__txts {
-    display: flex;
-    flex-flow: column wrap;
-    margin: 0.2em;
-  }
-
-  .card__txts--main {
-    font-weight: var(--font-main-weight);
-    color: var(--font-main-color);
-    font-size: 1.375em;
-  }
-
-  .card__txts--secondary {
-    font-weight: var(--font-secondary-weight);
-    color: var(--font-secondary-color);
-    font-size: 0.875em;
-  }
 }

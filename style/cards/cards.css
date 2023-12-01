@@ -1,0 +1,77 @@
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .cards {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    font-family: var(--montserrat);
+  }
+
+  .card {
+    width: 360px;
+    height: 144px;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: var(--montserrat);
+    padding: 1.5em;
+    margin-left: 1em;
+  }
+
+  .card__img {
+    border-radius: 10em;
+    width: 57px;
+    height: 57px;
+  }
+
+  .card__name {
+    font-weight: var(--font-main-weight);
+    color: var(--font-main-color);
+    margin: 0.2em;
+  }
+
+  .card__service--txt {
+    font-weight: var(--font-secondary-weight);
+    color: var(--font-secondary-color);
+  }
+
+  .card__time {
+    color: var(--font-main-color);
+    font-weight: 500;
+  }
+
+  .card__buttons--video {
+    background-color: var(--btn-color1);
+    width: 139px;
+    height: 48px;
+  }
+
+  .card__buttons--audio {
+    background-color: var(--btn-color2);
+    width: 139px;
+    height: 48px;
+  }
+
+  .card__buttons--address {
+    background-color: var(--btn-color3);
+    width: 296px;
+    height: 48px;
+  }
+
+  /*card da Sônia*/
+  .card__txts {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0.2em;
+  }
+
+  .card__txts--main {
+    font-weight: var(--font-main-weight);
+    color: var(--font-main-color);
+    font-size: 1.375em;
+  }
+
+  .card__txts--secondary {
+    font-weight: var(--font-secondary-weight);
+    color: var(--font-secondary-color);
+    font-size: 0.875em;
+  }
+}

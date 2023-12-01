@@ -1,10 +1,17 @@
 :root {
   --montserrat: "Montserrat", sans-serif;
   --btn-color1: #ffb050;
-  --btn-color2: #4894ff;
+  --btn-color2: #fff;
+  --btn-color3: #4894ff;
   --card-bg-color: #fff;
   --font-main-color: #464646;
   --font-secondary-color: #a3a3a3;
   --font-main-weight: 700;
   --font-secondary-weight: 400;
+}
+
+h1 {
+  color: var(--font-main-color);
+  font-weight: var(--font-main-weight);
+  margin-left: 1em;
 }
